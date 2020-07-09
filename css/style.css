@@ -1,0 +1,316 @@
+h1{
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+	margin:70px 70px 60px 70px ;
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  
+}
+div#container{
+position:relative;
+}
+@media(min-width: 992px){
+.column2{
+
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 250px;
+  margin:10px;
+  border-style: solid;
+border-width: medium;
+border-color: black; 
+	background-color:grey;
+  position:relative;
+  overflow: hidden;/* Should be removed. Only for demonstration */
+}
+.column3{
+
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 250px;
+  margin:10px;
+  border-style: solid;
+border-width: medium;
+border-color: black; 
+  background-color:grey;
+  position:relative;
+  overflow: hidden;/* Should be removed. Only for demonstration */
+}
+.column4{
+
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 250px;
+  margin:10px;
+  border-style: solid;
+border-width: medium;
+border-color: black; 
+  background-color:grey;
+  position:relative;
+  overflow: hidden;/* Should be removed. Only for demonstration */
+}
+
+#p1{
+  top:30px;
+  margin-top: 20px;
+}
+#p2{
+  top:30px;
+  margin-top: 20px;
+}
+#p3{
+  top:30px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column1
+{
+	width: 90px;
+	border:2px solid black;
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+  background-color: pink;
+  font-weight: bold;
+  position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.column6
+{
+  width: 90px;
+  border:2px solid black;
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+  background-color:#ff6347;
+  font-weight: bold;
+  position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.column7
+{
+  width: 90px;
+  border:2px solid black;
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+  background-color: mediumseagreen;
+  font-weight: bold;
+  position: absolute;
+    top: 0px;
+    right: 0px;
+}
+}
+@media(min-width: 768px)and (max-width: 991px){
+.column2{
+
+  float: left;
+  width: 45%;
+  padding: 10px;
+  height: 250px;
+  margin:10px;
+  border-style: solid;
+border-width: medium;
+border-color: black; 
+  background-color:grey;
+  position:relative;
+  overflow: hidden;/* Should be removed. Only for demonstration */
+}
+.column3{
+
+  float: left;
+  width: 45%;
+  padding: 10px;
+  height: 250px;
+  margin:10px;
+  border-style: solid;
+border-width: medium;
+border-color: black; 
+  background-color:grey;
+  position:relative;
+  overflow: hidden;/* Should be removed. Only for demonstration */
+}
+.column4{
+
+  float: left;
+  width: 92.5%;
+  padding: 10px;
+  height: 250px;
+  margin:10px;
+  border-style: solid;
+border-width: medium;
+border-color: black; 
+  background-color:grey;
+  position:relative;
+  overflow: hidden;/* Should be removed. Only for demonstration */
+}
+#p1{
+  top:30px;
+  margin-top: 20px;
+}
+#p2{
+  top:30px;
+  margin-top: 20px;
+}
+#p3{
+  top:30px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column1
+{
+  width: 90px;
+  border:2px solid black;
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+  background-color: pink;
+  font-weight: bold;
+  position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.column6
+{
+  width: 90px;
+  border:2px solid black;
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+  background-color:#ff6347;
+  font-weight: bold;
+  position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.column7
+{
+  width: 90px;
+  border:2px solid black;
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+  background-color: mediumseagreen;
+  font-weight: bold;
+  position: absolute;
+    top: 0px;
+    right: 0px;
+}
+}
+@media(max-width: 767px){
+.column2{
+
+  
+  width: 90%;
+  padding: 10px;
+  height: 250px;
+  margin:20px;
+  border-style: solid;
+border-width: medium;
+border-color: black; 
+  background-color:grey;
+  position:relative;
+  overflow: hidden;/* Should be removed. Only for demonstration */
+}
+.column3{
+
+  
+  width: 90%;
+  padding: 10px;
+  height: 250px;
+  margin:20px;
+  border-style: solid;
+border-width: medium;
+border-color: black; 
+  background-color:grey;
+  position:relative;
+  overflow: hidden;/* Should be removed. Only for demonstration */
+}
+.column4{
+
+  
+  width: 90%;
+  padding: 10px;
+  height: 250px;
+  margin:20px;
+  border-style: solid;
+border-width: medium;
+border-color: black; 
+  background-color:grey;
+  position:relative;
+  overflow: hidden;/* Should be removed. Only for demonstration */
+}
+#p1{
+  top:30px;
+  margin-top: 20px;
+}
+#p2{
+  top:30px;
+  margin-top: 20px;
+}
+#p3{
+  top:30px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column1
+{
+  width: 90px;
+  border:2px solid black;
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+  background-color: pink;
+  font-weight: bold;
+  position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.column6
+{
+  width: 90px;
+  border:2px solid black;
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+  background-color:#ff6347;
+  font-weight: bold;
+  position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.column7
+{
+  width: 90px;
+  border:2px solid black;
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+  background-color: mediumseagreen;
+  font-weight: bold;
+  position: absolute;
+    top: 0px;
+    right: 0px;
+}
+}
